@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap");
+body{
+  font-size: 14px;
+  font-weight: normal;
+}
 .contentWrapper {
   width: 100%;
   font-family: "Oswald", sans-serif !important;
