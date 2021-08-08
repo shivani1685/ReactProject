@@ -1,0 +1,47 @@
+.depth_wrapper {
+    height: 100vh;
+    position: relative;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .depth_container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 1140px;
+    width: 100%;
+    height: 470px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+  }
+  
+  .depth_item {
+    height: 320px;
+    width: 320px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-size: contain;
+    transition: all 0.225s linear;
+  }
+  
+  
+  .slide_btn {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .btn_right {
+    right: 0;
+  }
+  
+  .btn_left {
+    left: 0;
+  }
